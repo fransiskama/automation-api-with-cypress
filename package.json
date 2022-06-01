@@ -1,0 +1,23 @@
+{
+  "name": "cypress_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fransiskama/cypress_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fransiskama/cypress_api/issues"
+  },
+  "homepage": "https://github.com/fransiskama/cypress_api#readme",
+  "dependencies": {
+    "cypress": "^9.7.0"
+  }
+}

@@ -1,0 +1,4 @@
+{
+   "baseUrl": "http://qa-interview.srcli.xyz",
+   "integrationFolder": "cypress/integration/api-tests"
+}
