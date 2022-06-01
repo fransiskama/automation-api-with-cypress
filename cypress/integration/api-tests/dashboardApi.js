@@ -1,10 +1,9 @@
 describe('get dashboard api testing', () => {
-   let todoItem;
-   it('fetches Todo items - GET', () => {
+   it('check dashboard - GET', () => {
        cy.request('/').as('dashboard');
-       cy.get('@dashboard').then(dashb => {
-           expect(dashb.status).to.eq(200);
-           assert.include(dashb.body, 'Welcome')
+       cy.get('@dashboard').then(dashGet => {
+           expect(dashGet.status).to.eq(200);
+           assert.include(dashGet.body, 'Welcome')
        });
    });
 });
